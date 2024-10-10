@@ -6,6 +6,9 @@ public class Rectangle {
 	private double breadth;
 	public String getLength;
 	public String getBreadth;
+	public Rectangle(int i, int j) {
+		// TODO Auto-generated constructor stub
+	}
 	public double getLength() {
 		return length;
 	}
@@ -41,7 +44,7 @@ public class Rectangle {
 	
 //}
 	public static void main(String[] args) {
-		Rectangle r=new Rectangle();
+		Rectangle r=new Rectangle(10, 10);
 		r.length=10.5;
 		r.breadth=10.5;
 		System.out.println("Area "+r.area());
